@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-2+k@y&y+nbw)q-g8#p)h02v0j51t1xwl4$x%in0i1a$a94^_+(
 DEBUG = True
 
 # ALLOWED_HOSTS = ["2542-41-80-113-206.ngrok-free.app", "127.0.0.1"]
-# CSRF_TRUSTED_ORIGINS = ["https://2542-41-80-113-206.ngrok-free.app"]
+CSRF_TRUSTED_ORIGINS = ["https://ecommerceapi-production-159d.up.railway.app"]
 ALLOWED_HOSTS = ["*"]
 
 # Application definition
